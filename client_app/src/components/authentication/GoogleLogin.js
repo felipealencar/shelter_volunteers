@@ -31,9 +31,12 @@ function Login() {
     return (
       <div className="home-container landing-page" id="top">
         <header className="landing-nav">
-          <a className="landing-brand" href="#top" aria-label="Volunteer Connect home">
+          <a className="landing-brand" href="#top" aria-label="Volunteer Connect, House Everyone STL home">
             <span className="landing-brand-mark" aria-hidden="true">VC</span>
-            <span>Volunteer Connect</span>
+            <span className="landing-brand-text">
+              <span>Volunteer Connect</span>
+              <span className="landing-brand-organization">House Everyone STL</span>
+            </span>
           </a>
           <nav className="landing-nav-links" aria-label="Main navigation">
             <a href="#shelters">Shelters</a>
@@ -52,8 +55,9 @@ function Login() {
                 Good things happen when <span>communities show up.</span>
               </h1>
               <p className="landing-description">
-                Volunteer Connect brings shelters and volunteers together to make
-                local support easier to find, organize, and deliver.
+                Volunteer Connect helps House Everyone STL bring shelters and
+                volunteers together to make local support easier to find,
+                organize, and deliver.
               </p>
               <div className="landing-actions">
                 <a className="landing-primary-cta" href="#sign-in">
@@ -132,7 +136,7 @@ function Login() {
           </section>
           <footer className="landing-footer">
             <span className="landing-brand-mark" aria-hidden="true">VC</span>
-            <p>Volunteer Connect · Stronger communities start together.</p>
+            <p>Volunteer Connect · House Everyone STL · Stronger communities start together.</p>
             <a href="#top">Back to top ↑</a>
           </footer>
         </main>

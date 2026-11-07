@@ -46,6 +46,20 @@
   text-decoration: none;
 }
 
+.landing-brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.landing-brand-organization {
+  margin-top: 0.15rem;
+  color: #61738a;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
 .landing-brand-mark {
   width: 2.15rem;
   height: 2.15rem;
